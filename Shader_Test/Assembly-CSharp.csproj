@@ -63,9 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Dee-Shaw\Laser Pack\Scripts\Shooting.cs" />
+    <Compile Include="Assets\Dee-Shaw\Laser Pack\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scenes\NewAnimatorWorkflow.cs" />
     <Compile Include="Assets\Scenes\PlayerScript.cs" />
     <Compile Include="Assets\Scenes\test.cs" />
+    <None Include="Assets\Dee-Shaw\Information.txt" />
+    <None Include="Assets\Dee-Shaw\Laser Pack\Manual\Manual.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
