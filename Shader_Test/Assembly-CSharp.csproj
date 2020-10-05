@@ -65,6 +65,21 @@
   <ItemGroup>
     <Compile Include="Assets\Dee-Shaw\Laser Pack\Scripts\Shooting.cs" />
     <Compile Include="Assets\Dee-Shaw\Laser Pack\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scene3\Scripts\BehaviourScripts\Alignement.cs" />
+    <Compile Include="Assets\Scene3\Scripts\BehaviourScripts\Avoidance.cs" />
+    <Compile Include="Assets\Scene3\Scripts\BehaviourScripts\Cohesion.cs" />
+    <Compile Include="Assets\Scene3\Scripts\BehaviourScripts\CompositeBehaviour.cs" />
+    <Compile Include="Assets\Scene3\Scripts\BehaviourScripts\StayInRadiusBehavior.cs" />
+    <Compile Include="Assets\Scene3\Scripts\BehaviourScripts\SteeredAvoidance.cs" />
+    <Compile Include="Assets\Scene3\Scripts\BehaviourScripts\SteeredCohesion.cs" />
+    <Compile Include="Assets\Scene3\Scripts\ContextFilter.cs" />
+    <Compile Include="Assets\Scene3\Scripts\FilteredFlockBehaviour.cs" />
+    <Compile Include="Assets\Scene3\Scripts\FiltersScripts\PhysicsLayerFilter.cs" />
+    <Compile Include="Assets\Scene3\Scripts\FiltersScripts\SameFlockFilter.cs" />
+    <Compile Include="Assets\Scene3\Scripts\Flock.cs" />
+    <Compile Include="Assets\Scene3\Scripts\FlockAgent.cs" />
+    <Compile Include="Assets\Scene3\Scripts\FlockBehaviour.cs" />
+    <Compile Include="Assets\Scene3\Scripts\PostProcess\MaterialManager.cs" />
     <Compile Include="Assets\Scenes\NewAnimatorWorkflow.cs" />
     <Compile Include="Assets\Scenes\PlayerScript.cs" />
     <Compile Include="Assets\Scenes\test.cs" />
@@ -634,9 +649,6 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/jobco/Documents/_CtrlAlt/TestShader/Shader_Test/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/jobco/Documents/_CtrlAlt/TestShader/Shader_Test/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/jobco/Documents/_CtrlAlt/TestShader/Shader_Test/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
@@ -645,9 +657,6 @@
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Users/jobco/Documents/_CtrlAlt/TestShader/Shader_Test/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/jobco/Documents/_CtrlAlt/TestShader/Shader_Test/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>C:/Users/jobco/Documents/_CtrlAlt/TestShader/Shader_Test/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>

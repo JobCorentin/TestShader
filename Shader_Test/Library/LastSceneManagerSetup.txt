@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scene2/GIF 1.unity
+- path: Assets/Scene3/Flocking.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

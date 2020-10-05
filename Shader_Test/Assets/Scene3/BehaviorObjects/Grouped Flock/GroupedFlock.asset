@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec78abfbdd661c4fa51b282927212fd, type: 3}
+  m_Name: GroupedFlock
+  m_EditorClassIdentifier: 
+  behaviors:
+  - {fileID: 11400000, guid: 0e8bdd29ee1b14449a8c273b1104e6c4, type: 2}
+  - {fileID: 11400000, guid: 8297d3cea0b01df42b66eadf9c260998, type: 2}
+  - {fileID: 11400000, guid: cfe03e528d5e2b54ab35928dcd775516, type: 2}
+  - {fileID: 11400000, guid: 20ac29674c063584f8801dd75924ebec, type: 2}
+  weights:
+  - 1
+  - 10
+  - 15
+  - 1
